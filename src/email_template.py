@@ -45,10 +45,10 @@ class EmailTemplateMaker:
                 tldr=Counter(list(map(lambda x: x["risk_level"], finding_groups))),
             )
 
-            # just change z5480907@ad.unsw.edu.au to finding_groups[0]['email'] TODO
+            # just change z5480907@ad.unsw.edu.au to finding_groups[0]['email'] siva.kumar@anglernook.com TODO
             emails.append(
                 {
-                    "name": "siva.kumar@anglernook.com",
+                    "name": "z3539013@ad.unsw.edu.au",
                     "html": rendered,
                     "total_tasks": (
                         "You have 1 Outstanding Task"
